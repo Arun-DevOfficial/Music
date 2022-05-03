@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Panther';
+    src: url('./argithea-serif-font/Argithea-Demo.ttf');
+}
+
+@font-face {
+    font-family: 'selima';
+    src: url('./Pacifico/Pacifico-Regular.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./5023451.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'panther';
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+span {
+    color: orange;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 25px;
+    border: 1px solid #000;
+}
+
+.content a:hover {
+    background-color: rgb(14, 12, 12);
+}
+
+.content {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+    font-family: Panther;
+}
+
+.content h1 span {
+    color: orange;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: selima;
+}
+
+.header a:hover {
+    color: orange;
+}
+
+p {
+    font-family: selima;
+}
